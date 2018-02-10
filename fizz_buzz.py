@@ -6,7 +6,7 @@ def fizz_buzz(n):
             number += "Fizz"
         if elem % 5 == 0:
             number += "Buzz"
-        else:
+        if elem % 3 != 0 and elem % 5 != 0:
             number = str(elem)
         result.append(number)
     return result
