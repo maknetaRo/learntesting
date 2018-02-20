@@ -13,4 +13,4 @@ class TestFibonacci(unittest.TestCase):
         self.assertEqual(fibonacci(1), 1)
 
     def test_fibonacci_should_return_89_for_100(self):
-        self.assertEqual(fibonacci(100), 89)
+        self.assertEqual(fibonacci(100), [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89])
